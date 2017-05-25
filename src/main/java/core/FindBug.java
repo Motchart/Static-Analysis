@@ -185,22 +185,7 @@ public void Findbugs2(String one) {
 			name[3] = "Jessica";
 			}
 		
-		void RawTypes12()  throws RuntimeException{
-			    String x = null;
-			    if (x != "0");
-			    new IllegalArgumentException();
-			    // ....
-			}
-		void RawTypes23() {
-			Character so = null;
-		try {
-			  // Do some work here ...
-			  so = new Character(so);
-			  so.isLetterOrDigit(so);
-			} finally {
-			  so.charValue(); // Compiler error here
-			}
-		}
+
 	
 	
 	}
